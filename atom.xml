@@ -1,0 +1,215 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>Yiwan Code</title>
+  
+  <subtitle>少一些功利主义的追求，多一点不为什么的坚持</subtitle>
+  <link href="http://yiwanfeng5.github.io/atom.xml" rel="self"/>
+  
+  <link href="http://yiwanfeng5.github.io/"/>
+  <updated>2021-08-20T16:44:03.110Z</updated>
+  <id>http://yiwanfeng5.github.io/</id>
+  
+  <author>
+    <name>Yiwan Feng</name>
+    
+  </author>
+  
+  <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>Linux目录说明</title>
+    <link href="http://yiwanfeng5.github.io/2021/08/21/linux-mu-lu-shuo-ming/"/>
+    <id>http://yiwanfeng5.github.io/2021/08/21/linux-mu-lu-shuo-ming/</id>
+    <published>2021-08-20T16:44:03.000Z</published>
+    <updated>2021-08-20T16:44:03.110Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h2 id=&quot;bin-【重点】&quot;&gt;&lt;a href=&quot;#bin-【重点】&quot; class=&quot;headerlink&quot; title=&quot;/bin 【重点】&quot;&gt;&lt;/a&gt;/bin</summary>
+        
+      
+    
+    
+    
+    <category term="Linux" scheme="http://yiwanfeng5.github.io/categories/Linux/"/>
+    
+    <category term="目录说明" scheme="http://yiwanfeng5.github.io/categories/Linux/%E7%9B%AE%E5%BD%95%E8%AF%B4%E6%98%8E/"/>
+    
+    
+    <category term="尚硅谷" scheme="http://yiwanfeng5.github.io/tags/%E5%B0%9A%E7%A1%85%E8%B0%B7/"/>
+    
+    <category term="Linux" scheme="http://yiwanfeng5.github.io/tags/Linux/"/>
+    
+    <category term="目录说明" scheme="http://yiwanfeng5.github.io/tags/%E7%9B%AE%E5%BD%95%E8%AF%B4%E6%98%8E/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Hive SQL中的排序</title>
+    <link href="http://yiwanfeng5.github.io/2021/08/19/hive-sql-zhong-de-pai-xu/"/>
+    <id>http://yiwanfeng5.github.io/2021/08/19/hive-sql-zhong-de-pai-xu/</id>
+    <published>2021-08-19T08:39:10.000Z</published>
+    <updated>2021-08-20T16:09:21.001Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h2 id=&quot;全局排序（Order-By）&quot;&gt;&lt;a href=&quot;#全局排序（Order-By）&quot; class=&quot;headerlink&quot; title=&quot;全局排序（Order By）&quot;&gt;&lt;/a&gt;全局排序（Order By）&lt;/h2&gt;&lt;blockquote&gt;
+&lt;p&gt;Order</summary>
+        
+      
+    
+    
+    
+    <category term="Hive" scheme="http://yiwanfeng5.github.io/categories/Hive/"/>
+    
+    <category term="HQL" scheme="http://yiwanfeng5.github.io/categories/Hive/HQL/"/>
+    
+    <category term="DQL" scheme="http://yiwanfeng5.github.io/categories/Hive/HQL/DQL/"/>
+    
+    
+    <category term="尚硅谷" scheme="http://yiwanfeng5.github.io/tags/%E5%B0%9A%E7%A1%85%E8%B0%B7/"/>
+    
+    <category term="Hive" scheme="http://yiwanfeng5.github.io/tags/Hive/"/>
+    
+    <category term="HQL" scheme="http://yiwanfeng5.github.io/tags/HQL/"/>
+    
+    <category term="DQL" scheme="http://yiwanfeng5.github.io/tags/DQL/"/>
+    
+    <category term="HQL排序" scheme="http://yiwanfeng5.github.io/tags/HQL%E6%8E%92%E5%BA%8F/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Yarn调度器和调度算法</title>
+    <link href="http://yiwanfeng5.github.io/2021/08/19/yarn-diao-du-qi-he-diao-du-suan-fa/"/>
+    <id>http://yiwanfeng5.github.io/2021/08/19/yarn-diao-du-qi-he-diao-du-suan-fa/</id>
+    <published>2021-08-19T07:29:19.000Z</published>
+    <updated>2021-08-20T16:09:21.057Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;p&gt;目前，Hadoop 作业调度器主要有三种：FIFO、容量（Capacity Scheduler）和公平（Fair Scheduler）。Apache Hadoop3.1.3 默认的资源调度器是 Capacity Scheduler。 &lt;/p&gt;
+&lt;p&gt;CDH</summary>
+        
+      
+    
+    
+    
+    <category term="Hadoop" scheme="http://yiwanfeng5.github.io/categories/Hadoop/"/>
+    
+    <category term="Yarn" scheme="http://yiwanfeng5.github.io/categories/Hadoop/Yarn/"/>
+    
+    
+    <category term="尚硅谷" scheme="http://yiwanfeng5.github.io/tags/%E5%B0%9A%E7%A1%85%E8%B0%B7/"/>
+    
+    <category term="Hadoop" scheme="http://yiwanfeng5.github.io/tags/Hadoop/"/>
+    
+    <category term="Yarn" scheme="http://yiwanfeng5.github.io/tags/Yarn/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Yarn工作机制</title>
+    <link href="http://yiwanfeng5.github.io/2021/08/19/yarn-gong-zuo-ji-zhi/"/>
+    <id>http://yiwanfeng5.github.io/2021/08/19/yarn-gong-zuo-ji-zhi/</id>
+    <published>2021-08-19T06:30:48.000Z</published>
+    <updated>2021-08-20T16:09:21.052Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h2 id=&quot;Yarn-工作机制&quot;&gt;&lt;a href=&quot;#Yarn-工作机制&quot; class=&quot;headerlink&quot; title=&quot;Yarn 工作机制&quot;&gt;&lt;/a&gt;Yarn 工作机制&lt;/h2&gt;&lt;blockquote&gt;
+&lt;p&gt;&lt;img</summary>
+        
+      
+    
+    
+    
+    <category term="Hadoop" scheme="http://yiwanfeng5.github.io/categories/Hadoop/"/>
+    
+    <category term="Yarn" scheme="http://yiwanfeng5.github.io/categories/Hadoop/Yarn/"/>
+    
+    
+    <category term="尚硅谷" scheme="http://yiwanfeng5.github.io/tags/%E5%B0%9A%E7%A1%85%E8%B0%B7/"/>
+    
+    <category term="Hadoop" scheme="http://yiwanfeng5.github.io/tags/Hadoop/"/>
+    
+    <category term="Yarn" scheme="http://yiwanfeng5.github.io/tags/Yarn/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Yarn基础架构</title>
+    <link href="http://yiwanfeng5.github.io/2021/08/18/yarn-ji-chu-jia-gou/"/>
+    <id>http://yiwanfeng5.github.io/2021/08/18/yarn-ji-chu-jia-gou/</id>
+    <published>2021-08-18T07:43:06.000Z</published>
+    <updated>2021-08-20T16:09:21.002Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h2 id=&quot;Yarn-基础架构&quot;&gt;&lt;a href=&quot;#Yarn-基础架构&quot; class=&quot;headerlink&quot; title=&quot;Yarn 基础架构&quot;&gt;&lt;/a&gt;Yarn 基础架构&lt;/h2&gt;&lt;blockquote&gt;
+&lt;p&gt;YARN 主要由</summary>
+        
+      
+    
+    
+    
+    <category term="Hadoop" scheme="http://yiwanfeng5.github.io/categories/Hadoop/"/>
+    
+    <category term="Yarn" scheme="http://yiwanfeng5.github.io/categories/Hadoop/Yarn/"/>
+    
+    
+    <category term="尚硅谷" scheme="http://yiwanfeng5.github.io/tags/%E5%B0%9A%E7%A1%85%E8%B0%B7/"/>
+    
+    <category term="Hadoop" scheme="http://yiwanfeng5.github.io/tags/Hadoop/"/>
+    
+    <category term="Yarn" scheme="http://yiwanfeng5.github.io/tags/Yarn/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>HDFS读写过程</title>
+    <link href="http://yiwanfeng5.github.io/2021/08/18/hdfs-du-xie-guo-cheng/"/>
+    <id>http://yiwanfeng5.github.io/2021/08/18/hdfs-du-xie-guo-cheng/</id>
+    <published>2021-08-18T07:18:53.000Z</published>
+    <updated>2021-08-20T16:09:21.000Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h2 id=&quot;HDFS-写数据流程&quot;&gt;&lt;a href=&quot;#HDFS-写数据流程&quot; class=&quot;headerlink&quot; title=&quot;HDFS 写数据流程&quot;&gt;&lt;/a&gt;HDFS 写数据流程&lt;/h2&gt;&lt;h3 id=&quot;剖析文件写入&quot;&gt;&lt;a href=&quot;#剖析文件写入&quot;</summary>
+        
+      
+    
+    
+    
+    <category term="Hadoop" scheme="http://yiwanfeng5.github.io/categories/Hadoop/"/>
+    
+    <category term="HDFS" scheme="http://yiwanfeng5.github.io/categories/Hadoop/HDFS/"/>
+    
+    
+    <category term="尚硅谷" scheme="http://yiwanfeng5.github.io/tags/%E5%B0%9A%E7%A1%85%E8%B0%B7/"/>
+    
+    <category term="Hadoop" scheme="http://yiwanfeng5.github.io/tags/Hadoop/"/>
+    
+    <category term="HDFS" scheme="http://yiwanfeng5.github.io/tags/HDFS/"/>
+    
+  </entry>
+  
+</feed>

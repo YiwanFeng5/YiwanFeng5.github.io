@@ -1,0 +1,199 @@
+<?xml version="1.0" encoding="utf-8"?>
+<search> 
+  
+  
+    
+    <entry>
+      <title>Linux目录说明</title>
+      <link href="/2021/08/21/linux-mu-lu-shuo-ming/"/>
+      <url>/2021/08/21/linux-mu-lu-shuo-ming/</url>
+      
+        <content type="html"><![CDATA[<h2 id="bin-【重点】"><a href="#bin-【重点】" class="headerlink" title="/bin 【重点】"></a>/bin 【重点】</h2><blockquote><p>(/usr/bin、/usr/local/bin)<br>是binary 的缩写，这个目录存放着最经常使用的命令 。</p></blockquote><h2 id="sbin"><a href="#sbin" class="headerlink" title="/sbin"></a>/sbin</h2><blockquote><p>(/usr/sbin、/usr/local/sbin)<br>s 就是 Super User的意思，这里存放的是系统管理员使用的系统管理程序。</p></blockquote><h2 id="home-【重点】"><a href="#home-【重点】" class="headerlink" title="/home 【重点】"></a>/home 【重点】</h2><blockquote><p>存放普通用的主目录，在 Linux 中每个用户都有一个自己的目录，一般该目录是以用户的账号命名的。</p></blockquote><h2 id="root【重点】"><a href="#root【重点】" class="headerlink" title="/root【重点】"></a>/root【重点】</h2><blockquote><p>该目录为系统管理员，也称作超级权限者的用户主目录</p></blockquote><h2 id="lib"><a href="#lib" class="headerlink" title="/lib"></a>/lib</h2><blockquote><p>系统开机所需要的最基本的动态连接共享库，其作用类似于Windows里的DLL文件。几乎所有的应用程序都需要用到这些共享库。</p></blockquote><h2 id="lost-found"><a href="#lost-found" class="headerlink" title="/lost+found"></a>/lost+found</h2><blockquote><p>这个目录一般情况下是空的，当系统非法关机后，这里酒存放了一些文件。</p></blockquote><h2 id="etc【重点】"><a href="#etc【重点】" class="headerlink" title="/etc【重点】"></a>/etc【重点】</h2><blockquote><p>所有的系统管理所需要的配置文件和子目录，例如my.conf、</p></blockquote><h2 id="usr【重点】"><a href="#usr【重点】" class="headerlink" title="/usr【重点】"></a>/usr【重点】</h2><blockquote><p>这是一个非常重要的目录，用户的很多应用程序和文件都放在这个目录，类似于Windows下的program files目录。</p></blockquote><h2 id="boot【重点】"><a href="#boot【重点】" class="headerlink" title="/boot【重点】"></a>/boot【重点】</h2><blockquote><p>存放的是启动 Linux 时使用的一些核心文件，包括一些连接文件以及镜像文件、</p></blockquote><h2 id="proc"><a href="#proc" class="headerlink" title="/proc"></a>/proc</h2><blockquote><p>这个目录是一个虚拟的目录，它是系统内存的映射，访问这个目录来获取系统信息、</p></blockquote><h2 id="srv"><a href="#srv" class="headerlink" title="/srv"></a>/srv</h2><blockquote><p>service 缩写，该目录存放一些服务启动之后需要提取的数据。</p></blockquote><h2 id="sys"><a href="#sys" class="headerlink" title="/sys"></a>/sys</h2><blockquote><p>这是 Linux 2.6 内核的一个很大的变化。该目录下安装了 2.6 内核中新出现的一个文件系统、</p></blockquote><h2 id="tmp"><a href="#tmp" class="headerlink" title="/tmp"></a>/tmp</h2><blockquote><p>这个目录是用来存放一些临时文件的。</p></blockquote><h2 id="dev"><a href="#dev" class="headerlink" title="/dev"></a>/dev</h2><blockquote><p>类似于 Windows 的设备管理器，把所有的硬件使用文件的形式存储。</p></blockquote><h2 id="media【重点】"><a href="#media【重点】" class="headerlink" title="/media【重点】"></a>/media【重点】</h2><blockquote><p>Linux 系统会自动识别一些设备，例如U盘、光驱等等，当时别后，Linux 会把识别的设备挂载到这个目录。</p></blockquote><h2 id="mnt【重点】"><a href="#mnt【重点】" class="headerlink" title="/mnt【重点】"></a>/mnt【重点】</h2><blockquote><p>系统提供该目录为了让用户临时挂载别的文件系统。我们可以将外部的存储挂载在/mnt/下，然后进入该目录就可查看里面的内容了。</p></blockquote><h2 id="opt"><a href="#opt" class="headerlink" title="/opt"></a>/opt</h2><blockquote><p> 这是给主机额外安装软件所摆放的目录。如安装 MySQL 数据库就可以放到该目录下。默认为空。</p></blockquote><h2 id="usr-local【重点】"><a href="#usr-local【重点】" class="headerlink" title="/usr/local【重点】"></a>/usr/local【重点】</h2><blockquote><p>这是另一个给主机额外安装软件所安装的目录。一般是通过编译源码方式安装的程序。</p></blockquote><h2 id="var-【重点】"><a href="#var-【重点】" class="headerlink" title="/var 【重点】"></a>/var 【重点】</h2><blockquote><p>这个目录中存放着在不断扩充的东西，习惯将经常被修改的目录放在这个目录下。包括各种日志文件。</p></blockquote><h2 id="selinux-（Security-Enhanced-Linux）"><a href="#selinux-（Security-Enhanced-Linux）" class="headerlink" title="/selinux （Security-Enhanced Linux）"></a>/selinux （Security-Enhanced Linux）</h2><blockquote><p>类似360</p><p>SELinux 是一种安全子系统，它能控制程序只能访问特定的文件。</p></blockquote>]]></content>
+      
+      
+      <categories>
+          
+          <category> Linux </category>
+          
+          <category> 目录说明 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> 尚硅谷 </tag>
+            
+            <tag> Linux </tag>
+            
+            <tag> 目录说明 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>Hive SQL中的排序</title>
+      <link href="/2021/08/19/hive-sql-zhong-de-pai-xu/"/>
+      <url>/2021/08/19/hive-sql-zhong-de-pai-xu/</url>
+      
+        <content type="html"><![CDATA[<h2 id="全局排序（Order-By）"><a href="#全局排序（Order-By）" class="headerlink" title="全局排序（Order By）"></a>全局排序（Order By）</h2><blockquote><p>Order By：全局排序，只有一个 Reducer</p><ol><li><p>使用 Order By 子句排序</p><ul><li>ASC（Ascend）：升序（默认）</li><li>DESC（Descend）：降序</li></ul></li><li><p>Order By 子句在 Select 语句的结尾</p></li><li><p>举例</p><ol><li><p>查询员工信息按工资升序排列</p><pre class="line-numbers language-sql" data-language="sql"><code class="language-sql">hive <span class="token punctuation">(</span><span class="token keyword">default</span><span class="token punctuation">)</span><span class="token operator">&gt;</span> <span class="token keyword">select</span> <span class="token operator">*</span> <span class="token keyword">from</span> emp <span class="token keyword">order</span> <span class="token keyword">by</span> sal<span class="token punctuation">;</span><span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre></li><li><p>查询员工信息按工资降序排列</p><pre class="line-numbers language-sql" data-language="sql"><code class="language-sql">hive <span class="token punctuation">(</span><span class="token keyword">default</span><span class="token punctuation">)</span><span class="token operator">&gt;</span> <span class="token keyword">select</span> <span class="token operator">*</span> <span class="token keyword">from</span> emp <span class="token keyword">order</span> <span class="token keyword">by</span> sal <span class="token keyword">desc</span><span class="token punctuation">;</span><span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre></li><li><p>按照员工薪水的 2 倍排序（按照别名排序）</p><pre class="line-numbers language-sql" data-language="sql"><code class="language-sql">hive <span class="token punctuation">(</span><span class="token keyword">default</span><span class="token punctuation">)</span><span class="token operator">&gt;</span> <span class="token keyword">select</span> ename<span class="token punctuation">,</span> sal<span class="token operator">*</span><span class="token number">2</span> twosal <span class="token keyword">from</span> emp <span class="token keyword">order</span> <span class="token keyword">by</span> twosal<span class="token punctuation">;</span><span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre></li><li><p>按照部门和工资升序排序（多列排序）</p><pre class="line-numbers language-sql" data-language="sql"><code class="language-sql">hive <span class="token punctuation">(</span><span class="token keyword">default</span><span class="token punctuation">)</span><span class="token operator">&gt;</span> <span class="token keyword">select</span> ename<span class="token punctuation">,</span> deptno<span class="token punctuation">,</span> sal <span class="token keyword">from</span> emp <span class="token keyword">order</span> <span class="token keyword">by</span> deptno<span class="token punctuation">,</span> sal<span class="token punctuation">;</span><span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre></li></ol></li></ol></blockquote><h2 id="每个-Reduce-内部排序（Sort-By）"><a href="#每个-Reduce-内部排序（Sort-By）" class="headerlink" title="每个 Reduce 内部排序（Sort By）"></a>每个 Reduce 内部排序（Sort By）</h2><blockquote><p>Sort By：对于大规模的数据集 order by 的效率非常低。在很多情况下，并不需要全局排序，此时可以使用 sort by。</p><p>Sort by 为每个 reducer 产生一个排序文件。每个 Reducer 内部进行排序，对全局结果集来说不是排序。</p><ol><li><p>设置 reduce 个数</p><pre class="line-numbers language-sql" data-language="sql"><code class="language-sql">hive <span class="token punctuation">(</span><span class="token keyword">default</span><span class="token punctuation">)</span><span class="token operator">&gt;</span> <span class="token keyword">set</span> mapreduce<span class="token punctuation">.</span>job<span class="token punctuation">.</span>reduces<span class="token operator">=</span><span class="token number">3</span><span class="token punctuation">;</span><span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre></li><li><p>查看设置 reduce 个数</p><pre class="line-numbers language-sql" data-language="sql"><code class="language-sql">hive <span class="token punctuation">(</span><span class="token keyword">default</span><span class="token punctuation">)</span><span class="token operator">&gt;</span> <span class="token keyword">set</span> mapreduce<span class="token punctuation">.</span>job<span class="token punctuation">.</span>reduces<span class="token punctuation">;</span><span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre></li><li><p>根据部门编号降序查看员工信息</p><pre class="line-numbers language-sql" data-language="sql"><code class="language-sql">hive <span class="token punctuation">(</span><span class="token keyword">default</span><span class="token punctuation">)</span><span class="token operator">&gt;</span> <span class="token keyword">select</span> <span class="token operator">*</span> <span class="token keyword">from</span> emp sort <span class="token keyword">by</span> deptno <span class="token keyword">desc</span><span class="token punctuation">;</span><span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre></li><li><p>将查询结果导入到文件中（按照部门编号降序排列）</p><pre class="line-numbers language-sql" data-language="sql"><code class="language-sql">hive <span class="token punctuation">(</span><span class="token keyword">default</span><span class="token punctuation">)</span><span class="token operator">&gt;</span> <span class="token keyword">insert</span> overwrite <span class="token keyword">local</span> directory <span class="token string">'/opt/module/data/sortby-result'</span> <span class="token keyword">select</span> <span class="token operator">*</span> <span class="token keyword">from</span> emp sort <span class="token keyword">by</span> deptno <span class="token keyword">desc</span><span class="token punctuation">;</span><span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre></li></ol></blockquote><h2 id="分区排序（Distribute-By）"><a href="#分区排序（Distribute-By）" class="headerlink" title="分区排序（Distribute By）"></a>分区排序（Distribute By）</h2><blockquote><p>​    Distribute By： 在有些情况下，我们需要控制某个特定行应该到哪个 reducer，通常是为了进行后续的聚集操作。distribute by 子句可以做这件事。distribute by 类似 MR 中 partition（自定义分区），进行分区，结合 sort by 使用。<br>​    对于 distribute by 进行测试，一定要分配多 reduce 进行处理，否则无法看到 distribute<br>by 的效果。</p><p>举例：</p><ol><li><p>先按照部门编号分区，再按照员工编号降序排序。</p><pre class="line-numbers language-sql" data-language="sql"><code class="language-sql">hive <span class="token punctuation">(</span><span class="token keyword">default</span><span class="token punctuation">)</span><span class="token operator">&gt;</span> <span class="token keyword">set</span> mapreduce<span class="token punctuation">.</span>job<span class="token punctuation">.</span>reduces<span class="token operator">=</span><span class="token number">3</span><span class="token punctuation">;</span>hive <span class="token punctuation">(</span><span class="token keyword">default</span><span class="token punctuation">)</span><span class="token operator">&gt;</span> <span class="token keyword">insert</span> overwrite <span class="token keyword">local</span> directory <span class="token string">'/opt/module/data/distribute-result'</span> <span class="token keyword">select</span> <span class="token operator">*</span> <span class="token keyword">from</span> emp distribute <span class="token keyword">by</span> deptno sort <span class="token keyword">by</span> empno <span class="token keyword">desc</span><span class="token punctuation">;</span><span aria-hidden="true" class="line-numbers-rows"><span></span><span></span></span></code></pre></li></ol><p><strong>注意</strong>：</p><ul><li>distribute by 的分区规则是根据分区字段的 hash 码与 reduce 的个数进行模除后，余数相同的分到一个区。</li><li>Hive 要求 DISTRIBUTE BY 语句要写在 SORT BY 语句之前。</li></ul></blockquote><h2 id="Cluster-By"><a href="#Cluster-By" class="headerlink" title="Cluster By"></a>Cluster By</h2><blockquote><p>​    当 distribute by 和 sorts by 字段相同时，可以使用 cluster by 方式。<br>​    cluster by 除了具有 distribute by 的功能外还兼具 sort by 的功能。但是排序只能是升序<br>排序，不能指定排序规则为 ASC 或者 DESC。</p><ol><li><p>以下两种写法等价</p><pre class="line-numbers language-sql" data-language="sql"><code class="language-sql">hive <span class="token punctuation">(</span><span class="token keyword">default</span><span class="token punctuation">)</span><span class="token operator">&gt;</span> <span class="token keyword">select</span> <span class="token operator">*</span> <span class="token keyword">from</span> emp cluster <span class="token keyword">by</span> deptno<span class="token punctuation">;</span>hive <span class="token punctuation">(</span><span class="token keyword">default</span><span class="token punctuation">)</span><span class="token operator">&gt;</span> <span class="token keyword">select</span> <span class="token operator">*</span> <span class="token keyword">from</span> emp distribute <span class="token keyword">by</span> deptno sort <span class="token keyword">by</span> deptno<span class="token punctuation">;</span><span aria-hidden="true" class="line-numbers-rows"><span></span><span></span></span></code></pre></li></ol><p><strong>注意</strong>：按照部门编号分区，不一定就是固定死的数值，可以是 20 号和 30 号部门分到一个分区里面去。</p></blockquote>]]></content>
+      
+      
+      <categories>
+          
+          <category> Hive </category>
+          
+          <category> HQL </category>
+          
+          <category> DQL </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> 尚硅谷 </tag>
+            
+            <tag> Hive </tag>
+            
+            <tag> HQL </tag>
+            
+            <tag> DQL </tag>
+            
+            <tag> HQL排序 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>Yarn调度器和调度算法</title>
+      <link href="/2021/08/19/yarn-diao-du-qi-he-diao-du-suan-fa/"/>
+      <url>/2021/08/19/yarn-diao-du-qi-he-diao-du-suan-fa/</url>
+      
+        <content type="html"><![CDATA[<p>目前，Hadoop 作业调度器主要有三种：FIFO、容量（Capacity Scheduler）和公平（Fair Scheduler）。Apache Hadoop3.1.3 默认的资源调度器是 Capacity Scheduler。 </p><p>CDH 框架默认调度器是 Fair Scheduler。</p><p>具体设置详见：yarn-default.xml 文件</p><pre class="line-numbers language-xml" data-language="xml"><code class="language-xml"><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>property</span><span class="token punctuation">&gt;</span></span> <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>description</span><span class="token punctuation">&gt;</span></span>The class to use as the resource scheduler.<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>description</span><span class="token punctuation">&gt;</span></span> <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>name</span><span class="token punctuation">&gt;</span></span>yarn.resourcemanager.scheduler.class<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>name</span><span class="token punctuation">&gt;</span></span><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>value</span><span class="token punctuation">&gt;</span></span>org.apache.hadoop.yarn.server.resourcemanager.scheduler.capacity.CapacityScheduler<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>value</span><span class="token punctuation">&gt;</span></span><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>property</span><span class="token punctuation">&gt;</span></span><span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span><span></span></span></code></pre><h2 id="先进先出调度器（FIFO）"><a href="#先进先出调度器（FIFO）" class="headerlink" title="先进先出调度器（FIFO）"></a>先进先出调度器（FIFO）</h2><blockquote><p>FIFO 调度器（First In First Out）：单队列，根据提交作业的先后顺序，先来先服务。</p><p><img src="/images/Yarn%E8%B0%83%E5%BA%A6%E5%99%A8%E5%92%8C%E8%B0%83%E5%BA%A6%E7%AE%97%E6%B3%95/Yarn%E8%B0%83%E5%BA%A6%E5%99%A8FIFO.png" alt="Yarn调度器FIFO"></p><p>优点：简单易懂</p><p>缺点：不支持多队列，生产环境很少使用</p></blockquote><h2 id="容量调度器（Capacity-Scheduler）"><a href="#容量调度器（Capacity-Scheduler）" class="headerlink" title="容量调度器（Capacity Scheduler）"></a>容量调度器（Capacity Scheduler）</h2><blockquote><p>Capacity Scheduler 是 Yahoo 开发的多用户调度器。</p><p><img src="/images/Yarn%E8%B0%83%E5%BA%A6%E5%99%A8%E5%92%8C%E8%B0%83%E5%BA%A6%E7%AE%97%E6%B3%95/%E5%AE%B9%E9%87%8F%E8%B0%83%E5%BA%A6%E5%99%A8%E7%89%B9%E7%82%B9.png" alt="容量调度器特点"></p><ol><li><strong>多队列</strong>：每个队列可配置一定的资源量，每个队列采用FIFO调度策略。</li><li><strong>容量保证</strong>：管理员可为每个队列设置资源最低保证和资源使用上限</li><li><strong>灵活性</strong>：如果一个队列中的资源有剩余，可以暂时共享给那些需要资源的队列，而一旦该队列有新的应用程序提交，则其他队列借调的资源会归还给该队列。</li><li><strong>多租户</strong>：支持多用户共享集群和多应用程序同时运行。为了防止同一个用户的作业独占队列中的资源，该调度器会对<strong>同一用户提交的作业所占资源量进行限定</strong>。</li></ol></blockquote><h3 id="量调度器资源分配算法"><a href="#量调度器资源分配算法" class="headerlink" title="量调度器资源分配算法"></a>量调度器资源分配算法</h3><blockquote><p><img src="/images/Yarn%E8%B0%83%E5%BA%A6%E5%99%A8%E5%92%8C%E8%B0%83%E5%BA%A6%E7%AE%97%E6%B3%95/%E5%AE%B9%E9%87%8F%E8%B0%83%E5%BA%A6%E5%99%A8%E8%B5%84%E6%BA%90%E5%88%86%E9%85%8D%E7%AE%97%E6%B3%95.png" alt="容量调度器资源分配算法"></p></blockquote><h4 id="队列资源分配"><a href="#队列资源分配" class="headerlink" title="队列资源分配"></a>队列资源分配</h4><blockquote><p>从root开始，使用深度优先算法，<strong>优先选择资源占用率最低</strong>的队列分配资源。</p></blockquote><h4 id="作业资源分配"><a href="#作业资源分配" class="headerlink" title="作业资源分配"></a>作业资源分配</h4><blockquote><p>默认按照提交作业的<strong>优先级</strong>和<strong>提交时间</strong>顺序分配资源。</p></blockquote><h4 id="容器资源分配"><a href="#容器资源分配" class="headerlink" title="容器资源分配"></a>容器资源分配</h4><blockquote><p>按照容器的优先级分配资源；</p><p>如果优先级相同，按照<strong>数据本地性原则</strong>： </p><p>（1）任务和数据在同一节点</p><p>（2）任务和数据在同一机架</p><p>（3）任务和数据不在同一节点也不在同一机架</p></blockquote><h2 id="公平调度器（Fair-Scheduler）"><a href="#公平调度器（Fair-Scheduler）" class="headerlink" title="公平调度器（Fair Scheduler）"></a>公平调度器（Fair Scheduler）</h2><blockquote><p>Fair Schedulere 是 Facebook 开发的多用户调度器。</p><p><img src="/images/Yarn%E8%B0%83%E5%BA%A6%E5%99%A8%E5%92%8C%E8%B0%83%E5%BA%A6%E7%AE%97%E6%B3%95/%E5%85%AC%E5%B9%B3%E8%B0%83%E5%BA%A6%E5%99%A8%E7%89%B9%E7%82%B9.png" alt="公平调度器特点"></p><ol><li><strong>与容量调度器相同点</strong><ol><li><strong>多队列</strong>：支持多队列多作业</li><li><strong>容量保证</strong>：管理员可为每个队列设置资源最低保证和资源使用上线</li><li><strong>灵活性</strong>：如果一个队列中的资源有剩余，可以暂时共享给那些需要资源的队列，而一旦该队列有新的应用程序提交，则其他队列借调的资源会归还给该队列。</li><li><strong>多租户</strong>：支持多用户共享集群和多应用程序同时运行；为了防止同一个用户的作业独占队列中的资源，该调度器会对同一用户提交的作业所占资源量进行限定。</li></ol></li><li><strong>与容量调度器不同点</strong><ol><li>核心调度策略不同<ul><li>容量调度器：优先选择<strong>资源利用率低</strong>的队列</li><li>公平调度器：优先选择对资源的<strong>缺额</strong>比例大的</li></ul></li><li>每个队列可以单独设置资源分配方式<ul><li>容量调度器：FIFO、 <strong>DRF</strong></li><li>公平调度器：FIFO、<strong>FAIR</strong>、<strong>DRF</strong></li></ul></li></ol></li></ol><p>公平调度器——缺额</p><p><img src="/images/Yarn%E8%B0%83%E5%BA%A6%E5%99%A8%E5%92%8C%E8%B0%83%E5%BA%A6%E7%AE%97%E6%B3%95/%E5%85%AC%E5%B9%B3%E8%B0%83%E5%BA%A6%E5%99%A8-%E7%BC%BA%E9%A2%9D.png" alt="公平调度器-缺额"></p><ul><li><p>公平调度器设计目标是：</p><p>在时间尺度上，所有作业获得公平的资源。某一时刻一个作业应获资源和实际获取资源的差距叫“<strong>缺额</strong>”</p></li><li><p>调度器会<strong>优先为缺额大的作业分配资源</strong></p></li></ul></blockquote><h3 id="公平调度器队列资源分配方式"><a href="#公平调度器队列资源分配方式" class="headerlink" title="公平调度器队列资源分配方式"></a>公平调度器队列资源分配方式</h3><h4 id="FIFO-策略"><a href="#FIFO-策略" class="headerlink" title="FIFO 策略"></a>FIFO 策略</h4><blockquote><p>公平调度器每个队列资源分配策略如果选择FIFO的话，此时公平调度器相当于上面讲过的容量调度器。 </p></blockquote><h4 id="Fair-策略"><a href="#Fair-策略" class="headerlink" title="Fair 策略"></a>Fair 策略</h4><blockquote><p>Fair 策略（默认）是一种基于最大最小公平算法实现的资源多路复用方式，默认情况下，每个队列内部采用该方式分配资源。这意味着，如果一个队列中有两个应用程序同时运行，则每个应用程序可得到1/2的资源；如果三个应用程序同时运行，则每个应用程序可得到1/3的资源。</p><p><img src="/images/Yarn%E8%B0%83%E5%BA%A6%E5%99%A8%E5%92%8C%E8%B0%83%E5%BA%A6%E7%AE%97%E6%B3%95/%E5%85%AC%E5%B9%B3%E8%B0%83%E5%BA%A6%E5%99%A8Fair%E7%AD%96%E7%95%A5%E9%98%9F%E5%88%97%E8%B5%84%E6%BA%90%E5%88%86%E9%85%8D%E6%96%B9%E5%BC%8F.png" alt="公平调度器Fair策略队列资源分配方式"></p><p> 具体资源分配流程和容量调度器一致：</p><ol><li>选择队列</li><li>选择作业</li><li>选择容器</li></ol><p>以上三步，每一步都是按照公平策略分配资源</p><ul><li><p><strong>实际最小资源份额</strong>：mindshare = Min（资源需求量4 ，配置的最小资源 2）</p></li><li><p><strong>是否饥饿</strong>：isNeedy = 资源使用量1 &lt; mindshare（实际最小资源份额2）</p></li><li><p><strong>资源分配比</strong>：minShareRatio = 资源使用量1 / Max（mindshare2, 1）</p></li><li><p><strong>资源使用权重比</strong>：useToWeightRatio = 资源使用量 / 权重</p></li></ul></blockquote><h4 id="DRF-策略"><a href="#DRF-策略" class="headerlink" title="DRF 策略"></a>DRF 策略</h4><blockquote><p>​    DRF（Dominant Resource Fairness），我们之前说的资源，都是单一标准，例如只考虑内存（也是Yarn默认的情况）。但是很多时候我们资源有很多种，例如内存，CPU，网络带宽等，这样我们很难衡量两个应用应该分配的资源比例。</p><p>​    那么在YARN中，我们用DRF来决定如何调度：</p><p>​    假设集群一共有100 CPU和10T 内存，而应用A需要（2 CPU, 300GB），应用B需要（6 CPU，100GB）。则两个应用分别需要A（2%CPU, 3%内存）和B（6%CPU, 1%内存）的资源，这就意味着A是内存主导的, B是CPU主导的，针对这种情况，我们可以选择DRF策略对不同应用进行不同资源（CPU和内存）的一个不同比例的限制。</p></blockquote><h3 id="公平调度器资源分配算法"><a href="#公平调度器资源分配算法" class="headerlink" title="公平调度器资源分配算法"></a>公平调度器资源分配算法</h3><h4 id="队列资源分配-1"><a href="#队列资源分配-1" class="headerlink" title="队列资源分配"></a>队列资源分配</h4><blockquote><p><img src="/images/Yarn%E8%B0%83%E5%BA%A6%E5%99%A8%E5%92%8C%E8%B0%83%E5%BA%A6%E7%AE%97%E6%B3%95/%E5%85%AC%E5%B9%B3%E8%B0%83%E5%BA%A6%E5%99%A8%E9%98%9F%E5%88%97%E8%B5%84%E6%BA%90%E5%88%86%E9%85%8D%E7%AE%97%E6%B3%95.png" alt="公平调度器队列资源分配算法"></p><p>需求：集群总资源100，有三个队列，对资源的需求分别是：</p><p>queueA -&gt; 20， queueB -&gt;50， queueC -&gt; 30</p><p>第一次算：100 / 3 = 33.33</p><p>​    queueA：分33.33 → 多13.33</p><p>​    queueB：分33.33 → 少16.67</p><p>​    queueC：分33.33 → 多3.33</p><p>第二次算： （13.33 + 3.33）/ 1 = 16.66</p><p>​    queueA：分20</p><p>​    queueB：分33.33 + 16.66 = 50</p><p>​    queueC：分30</p></blockquote><h4 id="作业资源分配-1"><a href="#作业资源分配-1" class="headerlink" title="作业资源分配"></a>作业资源分配</h4><blockquote><ol><li><p><strong>不加权（关注点是Job的个数）：</strong></p><p>需求：有一条队列总资源12个, 有4个job，对资源的需求分别是:</p><p>  job1-&gt;1, job2-&gt;2 , job3-&gt;6, job4-&gt;5</p><p>第一次算: </p><p>12 / 4 = 3</p><p>  job1: 分3 –&gt; 多2个</p><p>  job2: 分3 –&gt; 多1个</p><p>  job3: 分3 –&gt; 差3个</p><p>  job4: 分3 –&gt; 差2个</p><p>第二次算: 3 / 2 = 1.5</p><p>  job1: 分1</p><p>  job2: 分2</p><p>  job3: 分3 –&gt; 差3个 –&gt; 分1.5 –&gt; 最终: 4.5</p><p>  job4: 分3 –&gt; 差2个 –&gt; 分1.5 –&gt; 最终: 4.5 </p><p>第n次算: 一直算到没有空闲资源</p></li><li><p><strong>加权（关注点是Job的权重）：</strong></p><p>需求：有一条队列总资源16，有4个job</p><p><strong>对资源的需求分别是</strong>:</p><p>  job1-&gt;4 job2-&gt;2 job3-&gt;10 job4-&gt;4</p><p><strong>每个job的权重为</strong>:</p><p>  job1-&gt;5 job2-&gt;8 job3-&gt;1 job4-&gt;2</p><p>第一次算: 16 / (5+8+1+2) = 1</p><p>  job1: 分5 –&gt; 多1</p><p>  job2: 分8 –&gt; 多6</p><p>  job3: 分1 –&gt; 少9</p><p>  job4: 分2 –&gt; 少2</p><p>第二次算: 7 / (1+2) = 7/3</p><p>  job1: 分4</p><p>  job2: 分2</p><p>  job3: 分1 –&gt; 分7/3（2.33） –&gt;少6.67</p><p>  job4: 分2 –&gt; 分14/3(4.66) –&gt;多2.66</p><p>第三次算:2.66/1=2.66</p><p>  job1: 分4</p><p>  job2: 分2</p><p>  job3: 分1 –&gt; 分2.66/1 –&gt; 分2.66</p><p>  job4: 分4 </p><p>第n次算: 一直算到没有空闲资源</p></li></ol></blockquote>]]></content>
+      
+      
+      <categories>
+          
+          <category> Hadoop </category>
+          
+          <category> Yarn </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> 尚硅谷 </tag>
+            
+            <tag> Hadoop </tag>
+            
+            <tag> Yarn </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>Yarn工作机制</title>
+      <link href="/2021/08/19/yarn-gong-zuo-ji-zhi/"/>
+      <url>/2021/08/19/yarn-gong-zuo-ji-zhi/</url>
+      
+        <content type="html"><![CDATA[<h2 id="Yarn-工作机制"><a href="#Yarn-工作机制" class="headerlink" title="Yarn 工作机制"></a>Yarn 工作机制</h2><blockquote><p><img src="/images/Yarn%E5%B7%A5%E4%BD%9C%E6%9C%BA%E5%88%B6/Yarn%E5%B7%A5%E4%BD%9C%E6%9C%BA%E5%88%B6.png" alt="Yarn工作机制"></p><ol><li>MR 程序提交到客户端所在的节点。</li><li>YarnRunner 向 ResourceManager 申请一个 Application。 </li><li>RM 将该应用程序的资源路径返回给 YarnRunner。 </li><li>该程序将运行所需资源提交到 HDFS 上。</li><li>程序资源提交完毕后，申请运行 mrAppMaster。</li><li>RM 将用户的请求初始化成一个 Task。 </li><li>其中一个 NodeManager 领取到 Task 任务。</li><li>该 NodeManager 创建容器 Container，并产生 MRAppmaster。</li><li>Container 从 HDFS 上拷贝资源到本地。 </li><li>MRAppmaster 向 RM 申请运行 MapTask 资源。</li><li>RM 将运行 MapTask 任务分配给另外两个 NodeManager，另两个 NodeManager 分别领取任务并创建容器。</li><li>MR 向两个接收到任务的 NodeManager 发送程序启动脚本，这两个 NodeManager分别启动 MapTask，MapTask 对数据分区排序。</li><li>MrAppMaster 等待所有 MapTask 运行完毕后，向 RM 申请容器，运行 ReduceTask。 </li><li>ReduceTask 向 MapTask 获取相应分区的数据。</li><li>程序运行完毕后，MR 会向 RM 申请注销自己。</li></ol></blockquote>]]></content>
+      
+      
+      <categories>
+          
+          <category> Hadoop </category>
+          
+          <category> Yarn </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> 尚硅谷 </tag>
+            
+            <tag> Hadoop </tag>
+            
+            <tag> Yarn </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>Yarn基础架构</title>
+      <link href="/2021/08/18/yarn-ji-chu-jia-gou/"/>
+      <url>/2021/08/18/yarn-ji-chu-jia-gou/</url>
+      
+        <content type="html"><![CDATA[<h2 id="Yarn-基础架构"><a href="#Yarn-基础架构" class="headerlink" title="Yarn 基础架构"></a>Yarn 基础架构</h2><blockquote><p>YARN 主要由 ResourceManager、NodeManager、ApplicationMaster 和 Container 等组件构成。</p><p><img src="/images/Yarn%E5%9F%BA%E7%A1%80%E6%9E%B6%E6%9E%84/%E3%80%90%E5%B0%9A%E7%A1%85%E8%B0%B7%E3%80%91Yarn%E5%9F%BA%E7%A1%80%E6%9E%B6%E6%9E%84.png" alt="【尚硅谷】Yarn基础架构"></p></blockquote>]]></content>
+      
+      
+      <categories>
+          
+          <category> Hadoop </category>
+          
+          <category> Yarn </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> 尚硅谷 </tag>
+            
+            <tag> Hadoop </tag>
+            
+            <tag> Yarn </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>HDFS读写过程</title>
+      <link href="/2021/08/18/hdfs-du-xie-guo-cheng/"/>
+      <url>/2021/08/18/hdfs-du-xie-guo-cheng/</url>
+      
+        <content type="html"><![CDATA[<h2 id="HDFS-写数据流程"><a href="#HDFS-写数据流程" class="headerlink" title="HDFS 写数据流程"></a>HDFS 写数据流程</h2><h3 id="剖析文件写入"><a href="#剖析文件写入" class="headerlink" title="剖析文件写入"></a>剖析文件写入</h3><blockquote><p><img src="/images/HDFS%E8%AF%BB%E5%86%99%E8%BF%87%E7%A8%8B/%E3%80%90%E5%B0%9A%E7%A1%85%E8%B0%B7%E3%80%91HDFS%E7%9A%84%E5%86%99%E6%95%B0%E6%8D%AE%E6%B5%81%E7%A8%8B.png" alt="HDFS的写数据流程"></p><ol><li>客户端通过 Distributed FileSystem 模块向 NameNode 请求上传文件，NameNode 检查目标文件是否已存在，父目录是否存在。</li><li>NameNode 返回是否可以上传。</li><li>客户端请求第一个 Block 上传到哪几个 DataNode 服务器上。</li><li>NameNode 返回 3 个 DataNode 节点，分别为 dn1、dn2、dn3。 </li><li>客户端通过 FSDataOutputStream 模块请求 dn1 上传数据，dn1 收到请求会继续调用dn2，然后 dn2 调用 dn3，将这个通信管道建立完成。</li><li>dn1、dn2、dn3 逐级应答客户端。</li><li>客户端开始往 dn1 上传第一个 Block（先从磁盘读取数据放到一个本地内存缓存），以 Packet 为单位，dn1 收到一个 Packet 就会传给 dn2，dn2 传给 dn3；dn1 每传一个 packet会放入一个应答队列等待应答。</li><li>当一个 Block 传输完成之后，客户端再次请求 NameNode 上传第二个 Block 的服务器。（重复执行 3-7 步）。</li></ol></blockquote><h3 id="网络拓扑-节点距离计算"><a href="#网络拓扑-节点距离计算" class="headerlink" title="网络拓扑-节点距离计算"></a>网络拓扑-节点距离计算</h3><blockquote><p>在 HDFS 写数据的过程中，NameNode 会选择距离待上传数据最近距离的 DataNode 接收数据。那么这个最近距离怎么计算呢？</p><p>节点距离：两个节点到达最近的共同祖先的距离总和。</p><p><img src="/images/HDFS%E8%AF%BB%E5%86%99%E8%BF%87%E7%A8%8B/%E3%80%90%E5%B0%9A%E7%A1%85%E8%B0%B7%E3%80%91%E7%BD%91%E7%BB%9C%E6%8B%93%E6%89%91-%E8%8A%82%E7%82%B9%E8%B7%9D%E7%A6%BB%E8%AE%A1%E7%AE%97.png" alt="网络拓扑-节点距离计算"></p><p>例如，假设有数据中心 d1 机架 r1 中的节点 n1。该节点可以表示为/d1/r1/n1。利用这种标记，这里给出四种距离描述。</p><p>大家算一算每两个节点之间的距离。</p><p><img src="/images/HDFS%E8%AF%BB%E5%86%99%E8%BF%87%E7%A8%8B/%E3%80%90%E5%B0%9A%E7%A1%85%E8%B0%B7%E3%80%91%E7%BD%91%E7%BB%9C%E6%8B%93%E6%89%91-%E8%8A%82%E7%82%B9%E8%B7%9D%E7%A6%BB%E8%AE%A1%E7%AE%97.%E4%B8%BE%E4%BE%8B.png" alt="网络拓扑-节点距离计算-举例"></p></blockquote><h3 id="机架感知（副本存储节点选择）"><a href="#机架感知（副本存储节点选择）" class="headerlink" title="机架感知（副本存储节点选择）"></a>机架感知（副本存储节点选择）</h3><blockquote><ol><li><p>机架感知说明</p><ol><li><p>官方说明</p><p><a href="http://hadoop.apache.org/docs/r3.1.3/hadoop-project-dist/hadoop-hdfs/HdfsDesign.html#Data_Replication">http://hadoop.apache.org/docs/r3.1.3/hadoop-project-dist/hadoop-hdfs/HdfsDesign.html#Data_Replication</a></p><pre class="line-numbers language-html" data-language="html"><code class="language-html">For the common case, when the replication factor is three, HDFS’s placement policy is to put one replica on the local machine if the writer is on a datanode, otherwise on a random datanode, another replica on a node in a different (remote) rack, and the last on a different node in the same remote rack. This policy cuts the inter-rack write traffic which generally improves write performance. The chance of rack failure is far less than that of node failure; this policy does not impact data reliability and availability guarantees. However, it does reduce the aggregate network bandwidth used when reading data since a block is placed in only two unique racks rather than three. With this policy, the replicas of a file do not evenly distribute across the racks. One third of replicas are on one node, two thirds of replicas are on one rack, and the other third are evenly distributed across the remaining racks. This policy improves write performance without compromising data reliability or read performance.<span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></span></code></pre></li><li><p>源码说明</p><p>Crtl + n 查找 BlockPlacementPolicyDefault，在该类中查找 chooseTargetInOrder 方法</p></li></ol></li><li><p>Hadoop3.1.3 副本节点选择</p><p><img src="/images/HDFS%E8%AF%BB%E5%86%99%E8%BF%87%E7%A8%8B/%E3%80%90%E5%B0%9A%E7%A1%85%E8%B0%B7%E3%80%91Hadoop3.1.3%E5%89%AF%E6%9C%AC%E8%8A%82%E7%82%B9%E9%80%89%E6%8B%A9.png" alt="Hadoop3.1.3副本节点选择"></p></li></ol></blockquote><h2 id="HDFS-读数据流程"><a href="#HDFS-读数据流程" class="headerlink" title="HDFS 读数据流程"></a>HDFS 读数据流程</h2><blockquote><p><img src="/images/HDFS%E8%AF%BB%E5%86%99%E8%BF%87%E7%A8%8B/%E3%80%90%E5%B0%9A%E7%A1%85%E8%B0%B7%E3%80%91HDFS%E7%9A%84%E8%AF%BB%E6%95%B0%E6%8D%AE%E6%B5%81%E7%A8%8B.png" alt="HDFS的读数据流程"></p><ol><li>客户端通过 DistributedFileSystem 向 NameNode 请求下载文件，NameNode 通过查询元数据，找到文件块所在的 DataNode 地址。</li><li>挑选一台 DataNode（就近原则，然后随机）服务器，请求读取数据。</li><li>DataNode 开始传输数据给客户端（从磁盘里面读取数据输入流，以 Packet 为单位来做校验）。</li><li>客户端以 Packet 为单位接收，先在本地缓存，然后写入目标文件。</li></ol></blockquote>]]></content>
+      
+      
+      <categories>
+          
+          <category> Hadoop </category>
+          
+          <category> HDFS </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> 尚硅谷 </tag>
+            
+            <tag> Hadoop </tag>
+            
+            <tag> HDFS </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+  
+  
+</search>
